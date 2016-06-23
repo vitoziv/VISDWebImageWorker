@@ -9,7 +9,7 @@
 #import "UIImageView+VIHighlightedWebCache.h"
 #import "UIView+WebCacheOperation.h"
 #import "UIImageView+VIWebCache.h"
-#import "VIIdentifierProtocol.h"
+#import <VIImageWorker/VIIdentifierProtocol.h>
 
 #define UIImageViewHighlightedWebCacheOperationKey @"highlightedImage"
 
