@@ -35,5 +35,5 @@ VISDWebImageWorker 还支持图片应用多种效果，比如：resize -> 模糊
 如果已有的 Effect 不能满足需求，可以自己写 Effect 类。
 继承 `VIImageEffect` 类，实现 `applyEffect:` 方法就可以。
 
-也欢迎将你发现的 effect 提交 pr 到 [VIImageWorker](https://github/vitoziv/VIImageWorker)
+也欢迎将你发现的 effect 提交 pr 到 [VIImageWorker](https://github.com/vitoziv/VIImageWorker)
 
