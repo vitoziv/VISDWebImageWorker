@@ -20,9 +20,9 @@ VISDWebImageWorker 还支持图片应用多种效果，比如：resize -> 模糊
 
 实现一个缓存圆角图片。
 
-    VIIWImageEffect *roundEffect = [VIIWImageEffect roundEffect];
-    VIIWImageWorker *imageWorker = [[VIIWImageWorker alloc] initWithEffects:@[roundEffect]];
-    VIIWWebImageManager *imageManager = [[VIIWWebImageManager alloc] initWithImageWorker:imageWorker];
+    VIImageEffect *roundEffect = [VIImageEffect roundEffect];
+    VIImageWorker *imageWorker = [[VIImageWorker alloc] initWithEffects:@[roundEffect]];
+    VIWebImageManager *imageManager = [[VIWebImageManager alloc] initWithImageWorker:imageWorker];
     [self.imageView vi_setWebImageManagerDelegate:imageManager];
 
 
