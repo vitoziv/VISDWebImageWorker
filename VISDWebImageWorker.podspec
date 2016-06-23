@@ -3,9 +3,9 @@ Pod::Spec.new do |s|
     s.version = '0.1'
     s.license = 'MIT'
     s.summary = 'VISDWebImageWorker is base on SDWebImage but support remake image before save to cache.'
-    s.homepage = 'https://github/vitoziv/VISDWebImageWorker'
+    s.homepage = 'https://github.com/vitoziv/VISDWebImageWorker' 
     s.author = { 'Vito' => 'vvitozhang@gmail.com' }
-    s.source = { :git => 'https://github/vitoziv/VISDWebImageWorker.git', :tag => "#{s.version.to_s}" }
+    s.source = { :git => 'https://github.com/vitoziv/VISDWebImageWorker.git', :tag => "#{s.version.to_s}" }
     s.platform = :ios, '7.0'
     s.source_files = 'VISDWebImageWorker/*.{h,m}'
 

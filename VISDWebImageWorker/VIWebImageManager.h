@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <SDWebImage/SDWebImageManager.h>
-#import <VIImageWorker.h>
+#import "VIImageWorker.h"
 
 @interface VIWebImageManager : NSObject <SDWebImageManagerDelegate, VIIdentifierProtocol>
 

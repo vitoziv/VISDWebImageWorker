@@ -9,7 +9,7 @@
 #import "UIImageView+VIWebCache.h"
 #import "objc/runtime.h"
 #import "UIView+WebCacheOperation.h"
-#import <VIIdentifierProtocol.h>
+#import "VIIdentifierProtocol.h"
 
 static char imageURLKey;
 static char kWebImageManagerDelegateKey;
