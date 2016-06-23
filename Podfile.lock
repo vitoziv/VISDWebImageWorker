@@ -1,0 +1,17 @@
+PODS:
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - VIImageWorker (0.1)
+
+DEPENDENCIES:
+  - SDWebImage (~> 3.8.1)
+  - VIImageWorker (~> 0.1)
+
+SPEC CHECKSUMS:
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  VIImageWorker: 3ed8c426bab457bbfa25c4fb5e49ae980ee76f5f
+
+PODFILE CHECKSUM: 9a06103e9bc5d68122b15acef5ea72303f2009af
+
+COCOAPODS: 1.0.1

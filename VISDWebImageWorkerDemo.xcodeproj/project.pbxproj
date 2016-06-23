@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40AAE5DAF648745D438CBF2F /* libPods-VISDWebImageWorkerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B0A2DD631998F61DC97B7F /* libPods-VISDWebImageWorkerDemo.a */; };
+		5FFA22C51D1C1AA50004CEF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFA22C41D1C1AA50004CEF3 /* main.m */; };
+		5FFA22C81D1C1AA50004CEF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFA22C71D1C1AA50004CEF3 /* AppDelegate.m */; };
+		5FFA22CB1D1C1AA50004CEF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFA22CA1D1C1AA50004CEF3 /* ViewController.m */; };
+		5FFA22CE1D1C1AA50004CEF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FFA22CC1D1C1AA50004CEF3 /* Main.storyboard */; };
+		5FFA22D01D1C1AA60004CEF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FFA22CF1D1C1AA60004CEF3 /* Assets.xcassets */; };
+		5FFA22D31D1C1AA60004CEF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FFA22D11D1C1AA60004CEF3 /* LaunchScreen.storyboard */; };
+		5FFA22E41D1C1CE60004CEF3 /* UIButton+VIWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFA22DC1D1C1CE60004CEF3 /* UIButton+VIWebCache.m */; };
+		5FFA22E51D1C1CE60004CEF3 /* UIImageView+VIHighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFA22DE1D1C1CE60004CEF3 /* UIImageView+VIHighlightedWebCache.m */; };
+		5FFA22E61D1C1CE60004CEF3 /* UIImageView+VIWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFA22E01D1C1CE60004CEF3 /* UIImageView+VIWebCache.m */; };
+		5FFA22E71D1C1CE60004CEF3 /* VIWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFA22E31D1C1CE60004CEF3 /* VIWebImageManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20B0A2DD631998F61DC97B7F /* libPods-VISDWebImageWorkerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VISDWebImageWorkerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A68DDE4E0C5E1BC2D3F6BBC /* Pods-VISDWebImageWorkerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VISDWebImageWorkerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VISDWebImageWorkerDemo/Pods-VISDWebImageWorkerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4F4E5AAA953C83F22EF74C89 /* Pods-VISDWebImageWorkerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VISDWebImageWorkerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VISDWebImageWorkerDemo/Pods-VISDWebImageWorkerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5FFA22C01D1C1AA50004CEF3 /* VISDWebImageWorkerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VISDWebImageWorkerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FFA22C41D1C1AA50004CEF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FFA22C61D1C1AA50004CEF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5FFA22C71D1C1AA50004CEF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5FFA22C91D1C1AA50004CEF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5FFA22CA1D1C1AA50004CEF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5FFA22CD1D1C1AA50004CEF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FFA22CF1D1C1AA60004CEF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FFA22D21D1C1AA60004CEF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FFA22D41D1C1AA60004CEF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FFA22DB1D1C1CE60004CEF3 /* UIButton+VIWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+VIWebCache.h"; sourceTree = "<group>"; };
+		5FFA22DC1D1C1CE60004CEF3 /* UIButton+VIWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+VIWebCache.m"; sourceTree = "<group>"; };
+		5FFA22DD1D1C1CE60004CEF3 /* UIImageView+VIHighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+VIHighlightedWebCache.h"; sourceTree = "<group>"; };
+		5FFA22DE1D1C1CE60004CEF3 /* UIImageView+VIHighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+VIHighlightedWebCache.m"; sourceTree = "<group>"; };
+		5FFA22DF1D1C1CE60004CEF3 /* UIImageView+VIWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+VIWebCache.h"; sourceTree = "<group>"; };
+		5FFA22E01D1C1CE60004CEF3 /* UIImageView+VIWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+VIWebCache.m"; sourceTree = "<group>"; };
+		5FFA22E11D1C1CE60004CEF3 /* VISDWebImageWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VISDWebImageWorker.h; sourceTree = "<group>"; };
+		5FFA22E21D1C1CE60004CEF3 /* VIWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIWebImageManager.h; sourceTree = "<group>"; };
+		5FFA22E31D1C1CE60004CEF3 /* VIWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIWebImageManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FFA22BD1D1C1AA50004CEF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40AAE5DAF648745D438CBF2F /* libPods-VISDWebImageWorkerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48B2C811707CAF6AC0FA1221 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F4E5AAA953C83F22EF74C89 /* Pods-VISDWebImageWorkerDemo.debug.xcconfig */,
+				4A68DDE4E0C5E1BC2D3F6BBC /* Pods-VISDWebImageWorkerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5FFA22B71D1C1AA50004CEF3 = {
+			isa = PBXGroup;
+			children = (
+				5FFA22C21D1C1AA50004CEF3 /* VISDWebImageWorkerDemo */,
+				5FFA22C11D1C1AA50004CEF3 /* Products */,
+				48B2C811707CAF6AC0FA1221 /* Pods */,
+				AE65CEA6BB952BB972B98066 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5FFA22C11D1C1AA50004CEF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FFA22C01D1C1AA50004CEF3 /* VISDWebImageWorkerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FFA22C21D1C1AA50004CEF3 /* VISDWebImageWorkerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5FFA22DA1D1C1CE60004CEF3 /* VISDWebImageWorker */,
+				5FFA22C61D1C1AA50004CEF3 /* AppDelegate.h */,
+				5FFA22C71D1C1AA50004CEF3 /* AppDelegate.m */,
+				5FFA22C91D1C1AA50004CEF3 /* ViewController.h */,
+				5FFA22CA1D1C1AA50004CEF3 /* ViewController.m */,
+				5FFA22CC1D1C1AA50004CEF3 /* Main.storyboard */,
+				5FFA22CF1D1C1AA60004CEF3 /* Assets.xcassets */,
+				5FFA22D11D1C1AA60004CEF3 /* LaunchScreen.storyboard */,
+				5FFA22D41D1C1AA60004CEF3 /* Info.plist */,
+				5FFA22C31D1C1AA50004CEF3 /* Supporting Files */,
+			);
+			path = VISDWebImageWorkerDemo;
+			sourceTree = "<group>";
+		};
+		5FFA22C31D1C1AA50004CEF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FFA22C41D1C1AA50004CEF3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FFA22DA1D1C1CE60004CEF3 /* VISDWebImageWorker */ = {
+			isa = PBXGroup;
+			children = (
+				5FFA22DB1D1C1CE60004CEF3 /* UIButton+VIWebCache.h */,
+				5FFA22DC1D1C1CE60004CEF3 /* UIButton+VIWebCache.m */,
+				5FFA22DD1D1C1CE60004CEF3 /* UIImageView+VIHighlightedWebCache.h */,
+				5FFA22DE1D1C1CE60004CEF3 /* UIImageView+VIHighlightedWebCache.m */,
+				5FFA22DF1D1C1CE60004CEF3 /* UIImageView+VIWebCache.h */,
+				5FFA22E01D1C1CE60004CEF3 /* UIImageView+VIWebCache.m */,
+				5FFA22E11D1C1CE60004CEF3 /* VISDWebImageWorker.h */,
+				5FFA22E21D1C1CE60004CEF3 /* VIWebImageManager.h */,
+				5FFA22E31D1C1CE60004CEF3 /* VIWebImageManager.m */,
+			);
+			path = VISDWebImageWorker;
+			sourceTree = SOURCE_ROOT;
+		};
+		AE65CEA6BB952BB972B98066 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20B0A2DD631998F61DC97B7F /* libPods-VISDWebImageWorkerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FFA22BF1D1C1AA50004CEF3 /* VISDWebImageWorkerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FFA22D71D1C1AA60004CEF3 /* Build configuration list for PBXNativeTarget "VISDWebImageWorkerDemo" */;
+			buildPhases = (
+				8127C8139B9BCCC60112EB8D /* [CP] Check Pods Manifest.lock */,
+				5FFA22BC1D1C1AA50004CEF3 /* Sources */,
+				5FFA22BD1D1C1AA50004CEF3 /* Frameworks */,
+				5FFA22BE1D1C1AA50004CEF3 /* Resources */,
+				2401DDA27ECFE719DA4DF053 /* [CP] Embed Pods Frameworks */,
+				95A0E19EC5764EF410616B2A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VISDWebImageWorkerDemo;
+			productName = VISDWebImageWorkerDemo;
+			productReference = 5FFA22C01D1C1AA50004CEF3 /* VISDWebImageWorkerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FFA22B81D1C1AA50004CEF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Vito;
+				TargetAttributes = {
+					5FFA22BF1D1C1AA50004CEF3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5FFA22BB1D1C1AA50004CEF3 /* Build configuration list for PBXProject "VISDWebImageWorkerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FFA22B71D1C1AA50004CEF3;
+			productRefGroup = 5FFA22C11D1C1AA50004CEF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FFA22BF1D1C1AA50004CEF3 /* VISDWebImageWorkerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FFA22BE1D1C1AA50004CEF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FFA22D31D1C1AA60004CEF3 /* LaunchScreen.storyboard in Resources */,
+				5FFA22D01D1C1AA60004CEF3 /* Assets.xcassets in Resources */,
+				5FFA22CE1D1C1AA50004CEF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2401DDA27ECFE719DA4DF053 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VISDWebImageWorkerDemo/Pods-VISDWebImageWorkerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8127C8139B9BCCC60112EB8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95A0E19EC5764EF410616B2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VISDWebImageWorkerDemo/Pods-VISDWebImageWorkerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FFA22BC1D1C1AA50004CEF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FFA22CB1D1C1AA50004CEF3 /* ViewController.m in Sources */,
+				5FFA22E61D1C1CE60004CEF3 /* UIImageView+VIWebCache.m in Sources */,
+				5FFA22E71D1C1CE60004CEF3 /* VIWebImageManager.m in Sources */,
+				5FFA22C81D1C1AA50004CEF3 /* AppDelegate.m in Sources */,
+				5FFA22E51D1C1CE60004CEF3 /* UIImageView+VIHighlightedWebCache.m in Sources */,
+				5FFA22E41D1C1CE60004CEF3 /* UIButton+VIWebCache.m in Sources */,
+				5FFA22C51D1C1AA50004CEF3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5FFA22CC1D1C1AA50004CEF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FFA22CD1D1C1AA50004CEF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FFA22D11D1C1AA60004CEF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FFA22D21D1C1AA60004CEF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FFA22D51D1C1AA60004CEF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5FFA22D61D1C1AA60004CEF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FFA22D81D1C1AA60004CEF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4E5AAA953C83F22EF74C89 /* Pods-VISDWebImageWorkerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VISDWebImageWorkerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vito.VISDWebImageWorkerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5FFA22D91D1C1AA60004CEF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A68DDE4E0C5E1BC2D3F6BBC /* Pods-VISDWebImageWorkerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VISDWebImageWorkerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vito.VISDWebImageWorkerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FFA22BB1D1C1AA50004CEF3 /* Build configuration list for PBXProject "VISDWebImageWorkerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FFA22D51D1C1AA60004CEF3 /* Debug */,
+				5FFA22D61D1C1AA60004CEF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FFA22D71D1C1AA60004CEF3 /* Build configuration list for PBXNativeTarget "VISDWebImageWorkerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FFA22D81D1C1AA60004CEF3 /* Debug */,
+				5FFA22D91D1C1AA60004CEF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FFA22B81D1C1AA50004CEF3 /* Project object */;
+}
