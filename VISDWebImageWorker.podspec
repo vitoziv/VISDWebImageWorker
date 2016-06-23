@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'VISDWebImageWorker'
-    s.version = '0.1'
+    s.version = '0.3'
     s.license = 'MIT'
     s.summary = 'VISDWebImageWorker is base on SDWebImage but support remake image before save to cache.'
     s.homepage = 'https://github.com/vitoziv/VISDWebImageWorker' 
