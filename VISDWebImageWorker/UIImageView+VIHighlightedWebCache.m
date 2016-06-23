@@ -7,7 +7,7 @@
 //
 
 #import "UIImageView+VIHighlightedWebCache.h"
-#import "UIView+WebCacheOperation.h"
+#import <SDWebImage/UIView+WebCacheOperation.h>
 #import "UIImageView+VIWebCache.h"
 #import <VIImageWorker/VIIdentifierProtocol.h>
 

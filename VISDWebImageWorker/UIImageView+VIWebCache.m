@@ -8,7 +8,7 @@
 
 #import "UIImageView+VIWebCache.h"
 #import "objc/runtime.h"
-#import "UIView+WebCacheOperation.h"
+#import <SDWebImage/UIView+WebCacheOperation.h>
 #import <VIImageWorker/VIIdentifierProtocol.h>
 
 static char imageURLKey;

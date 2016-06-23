@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SDWebImageCompat.h"
-#import "SDWebImageManager.h"
+#import <SDWebImage/SDWebImageCompat.h>
+#import <SDWebImage/SDWebImageManager.h>
 
 @protocol VIIdentifierProtocol;
 

@@ -8,7 +8,7 @@
 
 #import "UIButton+VIWebCache.h"
 #import "objc/runtime.h"
-#import "UIView+WebCacheOperation.h"
+#import <SDWebImage/UIView+WebCacheOperation.h>
 
 static char imageURLStorageKey;
 static char kWebImageManagerDelegateKey;
